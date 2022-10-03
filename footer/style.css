@@ -1,0 +1,37 @@
+.navBar{
+    position:relative;
+    background-color: #646F4B;
+    color: white;
+    position: center;
+    width: 100%;
+    border-radius: 10px;
+    height: 90px;
+}
+
+nav a{
+    text-decoration: none;
+    color: rgb(255, 255, 255);
+    text-decoration: none;
+    font-weight: 300%;    
+    
+}
+
+nav ul{
+    width: 90%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: row;
+
+}
+
+@media only screen and (max-width:700px){
+    .navBar{
+        background-color: #646F4B;
+        color: white;
+        position: center;
+        width: 100%;
+        border-radius: 10px;
+        height: 45px;
+    }
+}
