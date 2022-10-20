@@ -1,3 +1,26 @@
+.logo1{
+    margin-top: -20px;
+    margin-left: 750px;
+    margin-bottom: 20px;
+}
+
+.logo2{
+    margin-top: -75px;
+    margin-left: 850px;
+    margin-bottom: 20px;
+}
+
+.logo3{
+    margin-top: -75px;
+    margin-left: 950px;
+    margin-bottom: 20px;
+}
+
+.logo4{
+    width: 30px;
+    height: 30px;
+}
+
 .navBar{
     position:relative;
     background-color: #646F4B;
@@ -17,6 +40,7 @@ nav a{
 }
 
 nav ul{
+    margin-left: -15px;
     width: 90%;
     display: flex;
     justify-content: center;
@@ -24,6 +48,9 @@ nav ul{
     flex-direction: row;
 
 }
+
+
+
 
 @media only screen and (max-width:700px){
     .navBar{
